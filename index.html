@@ -1,91 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>REGISTRATION PAGE</title>
-    <link href="style.css" rel="stylesheet" />
-  </head>
+<html>
 
-  <body>
-    <!-- form -->
-    <form action="success.html">
-      <div class="container">
-        <h1>Register</h1>
-        <p>Please fill in this form to create an account.</p>
-        <hr />
-        <label for="fname"><b>First Name</b></label>
-        <input
-          type="text"
-          placeholder="Enter your first name"
-          name="fname"
-          id="fname"
-          required
-        />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MY PORTFOLIO</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 
-        <label for="lname"><b>Last Name</b></label>
-        <input
-          type="text"
-          placeholder="Enter your last name"
-          name="lname"
-          id="lname"
-          required
-        />
+</head>
 
-        <label for="email"><b>Email</b></label>
-        <input
-          type="text"
-          placeholder="Enter Email"
-          name="email"
-          id="email"
-          required
-        />
-
-        <label for="psw"><b>Password</b></label>
-        <input
-          type="password"
-          placeholder="Enter Password"
-          name="psw"
-          id="psw"
-          required
-        />
-
-        <label for="gender"><b>Gender</b></label
-        ><br />
-        <input type="radio" name="gender" value="male" /> Male<br />
-        <input type="radio" name="gender" value="female" /> Female<br />
-        <input type="radio" name="gender" value="other" /> Other<br />
-
-        <div class="label1">
-          <label for="pnumber"><b>Phone Number</b></label>
-          <input type="tel" name="pnumber" id="pnumber" required />
-        </div>
-        <div class="label1">
-          <label for="dob"><b>Date of Birth</b></label>
-          <input type="date" name="dob" id="dob" required />
-        </div>
-        <div class="label1">
-          <label for="favcolour"><b>Favorite Colour</b></label>
-          <input type="color" name="favcolour" id="favcolour" required />
+<body>
+    <!-- header -->
+    <header>
+        <div>
+            <nav class="nav">
+                <ul class="nav" id="ul">
+                    <li class="list"><a href="#aboutme" id="aboutme">About me</a></li>
+                    <li class="list"><a href="contact.html" id="Contact Page" target="_blank">Contact Page</a></li>
+                    <li class="list"><a href="#Services" id="Services">Services</a></li>
+                    <li class="list"><a href="#Projects" id="Projects">Projects</a></li>
+                    <li id="Bolu"><strong> Abudu Boluwatife</strong></li>
+                </ul>
         </div>
 
-        <hr />
-        <p>
-          By creating an account you agree to our
-          <a href="#">Terms & Privacy</a>.
-        </p>
-        <button type="submit" class="registerbtn" a href="success.html">
-          Register
-        </button>
-      </div>
+    </header>
 
-      <div class="container signin">
-        <p>
-          Already have an account?
-          <a href="login.html" target="_blank" class="login">Log In</a>.
-        </p>
-      </div>
-    </form>
-  </body>
+    <main>
+        <section>
+            <table id="table1">
+                <caption>
+                    <h2 class="caption" id="aboutme2">
+                        About Me
+                    </h2>
+                </caption>
+                <td>
+                    <p>My name is Boluwatife Abudu. I am an undergraduate student of University of
+                        Ilorin,
+                        currently in 300l. I
+                        come from a family of 4, with an elder sister. My father is a medical doctor and My mother is a
+                        nurse.
+                        So I grew up around medical professionals which naturally piqued my interest in it.</p>
+                </td>
+            </table>
+        </section>
+        <section>
+            <table id="table2">
+                <caption class="caption" id="hobbie">
+                    <h2>Hobbies, priorities and other Skills</h2>
+                </caption>
+                <td>
+                    <ul>
+                        <li>My major hobby is reading novels.</li>
+                        <li>I mostly read fever dream, slice of life, historical fiction and romance novels.</li>
+                        <li>I also really like watching korean movies.</li>
+                        <li>I really love music, specifically kpop.</li>
+                        <li>I spend a good amount of my time keeping up with the korean industry.</li>
+                        <li>I'm also really into skincare.</li>
+                        <li>I'm pretty good at math.</li>
+                        <li>I'm averagely good at singing and writing.</li>
+                    </ul>
+                </td>
+            </table>
+        </section>
+        <section>
+            <img src="images/bolu1.jpg" alt="Boluwatife">
+        </section>
+  <section>
+            <h2 id="projects2">
+                Projects
+            </h2>
+
+            <ul id="project3">
+                <li> None so far</li>
+            </ul>
+
+        </section>
+        <section id="project7">
+            <h2 id="project5">
+                Services
+            </h2>
+            <ul id="project6">
+                <li>Frontend development</li>
+            </ul>
+        </section>
+
+        <footer>
+            © 2022 | ABUDU BOLUWATIFE
+        </footer>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
 </html>
