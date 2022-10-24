@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="successpage" href="success.html" />
+    <title>LOGIN PAGE</title>
+  </head>
+
+  <body>
+    <form action="success.html">
+      <div class="container">
+        <label for="email" id="email2"><b>Email</b></label
+        ><br />
+        <input
+          type="email"
+          placeholder="....@yahoo.com"
+          name="email"
+          required
+          id="email1"
+        /><br />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <button type="submit" class="login">Login</button>
+        <hr />
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+        </label>
+      </div>
+
+      <div class="container" style="background-color: honeydew">
+        <button type="button" class="cancelbtn">Cancel</button><br /><br />
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </body>
+</html>
